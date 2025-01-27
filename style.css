@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #F0E2C5;
+}
+
+.bg-primary {
+    background-color: #F0E2C5;
+}
+
+.bg-secondry {
+    background-color: #49281A;
+}
+
+.text-primary {
+    color: #F0E2C5;
+}
+
+.text-secondry {
+    color: #49281A;
+}
+
+.header-font{
+    font-family: "Playfair Display SC", serif;
+}
+
+.body-font{
+    font-family: "Lato", serif;
+}
+
+.card{
+    border: 1px solid black;
+    width: 250px;
+    padding: 10px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: blanchedalmond;
+    font-family: "Lato", serif;
+    border-radius: 5px;
+    
+}
+
+.cimg{
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.ct{
+    background-color: #49281A;
+    color: #F0E2C5;
+}
+
+.ctxt{
+    line-height: 1.5;
+}
+
+.p{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.btn{
+    background-color: #49281A;
+    display: block;
+    color: #F0E2C5;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+header{
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    line-height: 40px;
+    margin: 20px;
+    line-height: 40px;
+}
+
+.eo{
+    background-color: #49281A;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    line-height: 40px;
+
+}
+
+nav{
+    background-color: #49281A;
+    padding: 30px 0;
+    text-align: center;
+}
+
+nav a{
+    color: #F0E2C5;
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 0 15px;
+}
+
+nav a:hover{
+    border-bottom: 2px solid #F0E2C5;
+}
+
+#om{
+    border: 2px solid #000;
+    margin: 5px;
+
+}
+
+#abu, #contact-us{
+    border: 2px solid black;
+    padding: 10px;
+
+}
+
+#oh2, #ch{
+    font-family: "Playfair Display SC", serif;
+    color: #49281A;
+    font-size: 2rem;
+}
+
+#p, #cp{
+    font-family: "Lato", serif;
+    padding: 10px 0;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+#contact-us form{
+    font-family: "Lato", serif;
+    width: 70%;
+}
+
+form div{
+    margin-bottom: 5px;
+    padding: 10px 0;
+}
+
+.fl{
+    width: 150px;
+    display: inline-block;
+}
+.fc{
+    width: 60%;
+    border: none;
+    outline: none;
+    background-color: #F0E2C5;
+    border-bottom: 1px dotted #49281A;
+}
+
+footer{
+    text-align: center;
+    padding: 25px 0;
+    font-family: "Lato", serif;
+}
